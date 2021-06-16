@@ -138,12 +138,15 @@ main>p{
 }
 
 .ImageContainer{
-    display: flex;
+    display: inline;
     flex-direction: column;
     align-items: center;
+    width: 717px;
+    height: 626px;
+
 }
 
-.BorderImg>img{
+.Img>img{
     width: 717px;
     height: 626px;
     border-radius: 140px 0;
@@ -152,16 +155,22 @@ main>p{
     grid-column-end:3 ;
     grid-row-start:1;
     grid-row-end:5;
+    z-index: 2;
 }
 .BorderImg{
-    width: 717px;
-    height: 626px;
     border-radius: 140px 0;
     border: 2px solid #B0855B;
     grid-column-start: 2;
     grid-column-end:3 ;
     grid-row-start:1;
     grid-row-end:5;
+    width: 717px;
+    height: 626px;
+    z-index: -1;
+    position: relative;
+    top: -600px;
+    left: 50px;
+
 }
 
 
