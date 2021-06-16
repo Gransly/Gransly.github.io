@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
 
-body
-{
+body{
     margin: 0 5% 0 5%;
 }
 nav{
@@ -30,6 +29,10 @@ ul>li:last-child
 }
 
 .Logo{
+    width: 151px;
+    height: 47px;
+}
+.Logo>img{
     width: 151px;
     height: 47px;
 }
@@ -169,7 +172,7 @@ main>p{
     z-index: -1;
     position: relative;
     top: -600px;
-    left: 50px;
+    left: 30px;
 
 }
 
@@ -311,4 +314,8 @@ main>p{
     margin-top: 40px ;
     margin-left: 37px;
     margin-right: 20px;
+}
+
+section{
+    margin: 0 0 20px 0;
 }
