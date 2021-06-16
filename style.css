@@ -4,7 +4,7 @@
 
 body
 {
-    margin: 0 251px  0 268px;
+    margin: 0 5% 0 5%;
 }
 nav{
     margin-top:30px ;
@@ -62,10 +62,23 @@ main{
     margin-top: 100px;
 }
 
-main>h2{
+h2{
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: 600;
+}
+h1{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+p{
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+main>h2{
     font-size: 20px;
     line-height: 27px;
     color: #646464;
@@ -79,31 +92,21 @@ main>h2{
 }
 
 main > h1{
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 600;
+
     font-size: 72px;
     line-height: 78px;
-
-
     color: #212121;
-
     grid-column-start: 1;
     grid-column-end:2 ;
     grid-row-start:2;
     grid-row-end:3;
-
     margin: 0;
-
     display: flex;
     align-items: center;
 }
 
 
 main>p{
-    font-family: Open Sans, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 30px;
     color: #646464;
@@ -159,4 +162,144 @@ main>p{
     grid-column-end:3 ;
     grid-row-start:1;
     grid-row-end:5;
+}
+
+
+.WhatWeDoHeader{
+
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    color: #646464;
+    margin: 0;
+}
+.ServiceHeader{
+    font-size: 48px;
+    color: #212121;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Buttons{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 18px 0 0;
+}
+.LeftButton{
+    background: #FFFFFF;
+    box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
+    color: #646464;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px ;
+
+    font-weight: bolder;
+    margin: 0 10px 0 0;
+}
+.RightButton{
+    background: #37806B;
+    box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px ;
+
+    font-weight: bolder;
+    margin: 0 18px 0 0;
+}
+
+.FlexHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.Container{
+    width: 425px;
+    height: 193px;
+
+    background: #FFFFFF;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+    border-radius: 60px 0;
+    display: flex;
+}
+
+.Container > h3{
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #212121;
+    margin: 40px 0 0 0;
+}
+.Container > p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #646464;
+}
+.Container2{
+    width: 425px;
+    height: 193px;
+
+    background: #CAA892;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+    border-radius: 60px 0;
+    display: flex;
+}
+
+.TextContainer>h3{
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #212121;
+    margin: 40px 0 0 0 ;
+}
+.TextContainer>p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #646464;
+}
+.TextContainer2>p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.TextContainer2>h3{
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 40px 0 0 0 ;
+}
+
+.FlexContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 50px;
+}
+
+.Container>img{
+    width: 40px;
+    height: 40px;
+    margin-top: 40px ;
+    margin-left: 37px;
+    margin-right: 20px;
+}
+
+.Container2>img{
+    width: 40px;
+    height: 40px;
+    margin-top: 40px ;
+    margin-left: 37px;
+    margin-right: 20px;
 }
