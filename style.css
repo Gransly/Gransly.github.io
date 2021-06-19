@@ -1,6 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
+a:link {
+
+    text-decoration: none;
+}
+a:visited {
+
+    text-decoration: none;
+}
+a:hover {
+
+    text-decoration: none;
+    border-bottom: none;
+}
+.Sign-Up > a{
+    color: #FFFFFF;
+}
+.Contact > a{
+    color:#FFFFFF
+}
+.LeftButton > a{
+    color:#646464;
+}
+.RightButton > a{
+    color: #FFFFFF;
+}
+
+li>a:link {
+    color: #646464;
+    text-decoration: none;
+}
+li>a:visited {
+    color: #646464;
+    text-decoration: none;
+}
+li>a:hover {
+    color: #CAA892;
+    text-decoration: none;
+    border-bottom: .1em solid;
+}
 
 body{
     margin: 0 5% 0 5%;
@@ -32,10 +71,15 @@ ul>li:last-child
     width: 151px;
     height: 47px;
 }
-.Logo>img{
+a>img{
     width: 151px;
     height: 47px;
 }
+.LogoLink:hover
+{
+    border-bottom: none;
+}
+
 .Sign-Up{
     width: 97px;
     height: 32px;
@@ -45,24 +89,32 @@ ul>li:last-child
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height */
-
-
     color: #FFFFFF;
-
     background-color: #CAA892;
     border-radius: 15px 0;
     border: none;
 }
 
+.Sign-Up:hover{
+    background-color:  #646464;
+    transition:background-color 0.5s linear;
+}
+
 
 main{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+.MainGrid{
     display: grid;
     grid-template-columns: 603px  717px;
     grid-template-rows: 200px 150px 100px 200px;
     grid-column-gap: 44px;
     grid-row-gap: 1em;
-    margin-top: 100px;
+
+    margin: auto;
 }
 
 h2{
@@ -81,7 +133,7 @@ p{
     font-weight: normal;
 }
 
-main>h2{
+.MainGrid>h2{
     font-size: 20px;
     line-height: 27px;
     color: #646464;
@@ -94,7 +146,7 @@ main>h2{
     margin: 0;
 }
 
-main > h1{
+.MainGrid > h1{
 
     font-size: 72px;
     line-height: 78px;
@@ -109,7 +161,7 @@ main > h1{
 }
 
 
-main>p{
+.MainGrid>p{
     font-size: 18px;
     line-height: 30px;
     color: #646464;
