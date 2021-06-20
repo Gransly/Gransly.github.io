@@ -14,18 +14,8 @@ a:hover {
     text-decoration: none;
     border-bottom: none;
 }
-.Sign-Up > a{
-    color: #FFFFFF;
-}
-.Contact > a{
-    color:#FFFFFF
-}
-.LeftButton > a{
-    color:#646464;
-}
-.RightButton > a{
-    color: #FFFFFF;
-}
+
+
 
 li>a:link {
     color: #646464;
@@ -81,6 +71,9 @@ a>img{
 }
 
 .Sign-Up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 97px;
     height: 32px;
 
@@ -93,6 +86,7 @@ a>img{
     background-color: #CAA892;
     border-radius: 15px 0;
     border: none;
+
 }
 
 .Sign-Up:hover{
@@ -190,7 +184,15 @@ p{
     grid-row-start:4;
     grid-row-end:5;
     margin: 0;
+
 }
+
+
+.Contact:hover{
+    background-color: #399696;
+    transition:  1s linear;
+}
+
 
 .ImageContainer{
     display: inline;
@@ -261,6 +263,10 @@ p{
     font-weight: bolder;
     margin: 0 10px 0 0;
 }
+.LeftButton:hover{
+    background-color: #C2C2C2;
+    transition:  1s linear;
+}
 .RightButton{
     background: #37806B;
     box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
@@ -272,6 +278,10 @@ p{
 
     font-weight: bolder;
     margin: 0 18px 0 0;
+}
+.RightButton:hover{
+    background-color: #399696;
+    transition:  1s linear;
 }
 
 .FlexHeader{
