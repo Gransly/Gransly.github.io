@@ -1,31 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
-a:link {
-
-    text-decoration: none;
-}
-a:visited {
+a {
 
     text-decoration: none;
 }
 a:hover {
 
-    text-decoration: none;
     border-bottom: none;
 }
 
 
 
-li>a:link {
+.links li>a:link {
     color: #646464;
     text-decoration: none;
 }
-li>a:visited {
+.links li>a:visited {
     color: #646464;
     text-decoration: none;
 }
-li>a:hover {
+.links li>a:hover {
     color: #CAA892;
     text-decoration: none;
     border-bottom: .1em solid;
@@ -35,7 +30,7 @@ body{
     margin: 0 5% 0 5%;
 }
 nav{
-    margin-top:30px ;
+    margin-top:30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -96,7 +91,8 @@ a>img{
 
 
 main{
-display: flex;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 100px 0;
@@ -376,8 +372,4 @@ p{
     margin-top: 40px ;
     margin-left: 37px;
     margin-right: 20px;
-}
-
-section{
-    margin: 0 0 20px 0;
 }
