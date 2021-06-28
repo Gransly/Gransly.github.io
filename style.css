@@ -10,15 +10,19 @@ a:hover {
     border-bottom: none;
 }
 
-
+.links li>a{
+    cursor: pointer;
+}
 
 .links li>a:link {
     color: #646464;
     text-decoration: none;
+
 }
 .links li>a:visited {
     color: #646464;
     text-decoration: none;
+
 }
 .links li>a:hover {
     color: #CAA892;
@@ -63,6 +67,7 @@ a>img{
 .LogoLink:hover
 {
     border-bottom: none;
+    cursor: pointer;
 }
 
 .Sign-Up{
@@ -123,7 +128,7 @@ p{
     font-weight: normal;
 }
 
-.MainGrid>h2{
+.MainGrid-extraHeader{
     font-size: 20px;
     line-height: 27px;
     color: #646464;
@@ -136,7 +141,7 @@ p{
     margin: 0;
 }
 
-.MainGrid > h1{
+.MainGrid-header{
 
     font-size: 72px;
     line-height: 78px;
@@ -151,7 +156,7 @@ p{
 }
 
 
-.MainGrid>p{
+.MainGrid-text{
     font-size: 18px;
     line-height: 30px;
     color: #646464;
@@ -286,7 +291,7 @@ p{
     margin: 0;
 }
 
-.Container{
+.Interior-container:nth-child(odd){
     width: 425px;
     height: 193px;
 
@@ -296,7 +301,7 @@ p{
     display: flex;
 }
 
-.Container > h3{
+.Interior-container:nth-child(odd) .Interior-container-text > h3{
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -304,13 +309,13 @@ p{
     color: #212121;
     margin: 40px 0 0 0;
 }
-.Container > p{
+.Interior-container:nth-child(odd) .Interior-container-text> p{
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.01em;
     color: #646464;
 }
-.Container2{
+.Interior-container:nth-child(even){
     width: 425px;
     height: 193px;
 
@@ -320,29 +325,16 @@ p{
     display: flex;
 }
 
-.TextContainer>h3{
-    font-family: Open Sans, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    color: #212121;
-    margin: 40px 0 0 0 ;
-}
-.TextContainer>p{
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: -0.01em;
-    color: #646464;
-}
-.TextContainer2>p{
+
+
+.Interior-container:nth-child(even) .Interior-container-text>p{
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.01em;
     color: #FFFFFF;
 }
 
-.TextContainer2>h3{
+.Interior-container:nth-child(even) .Interior-container-text>h3{
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -358,7 +350,7 @@ p{
     margin-top: 50px;
 }
 
-.Container>img{
+.Interior-container>img{
     width: 40px;
     height: 40px;
     margin-top: 40px ;
@@ -366,7 +358,7 @@ p{
     margin-right: 20px;
 }
 
-.Container2>img{
+.Architecture-container>img{
     width: 40px;
     height: 40px;
     margin-top: 40px ;
