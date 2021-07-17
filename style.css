@@ -10,6 +10,8 @@ a:hover {
     border-bottom: none;
 }
 
+
+
 .links li>a{
     cursor: pointer;
 }
@@ -36,8 +38,12 @@ body{
 nav{
     margin-top:30px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.links{
+   margin-left: auto;
 }
 
 ul > li{
@@ -346,6 +352,7 @@ p{
 .FlexContainer{
     display: flex;
     justify-content: space-around;
+    gap: 37px;
     flex-flow: row wrap;
     margin-top: 50px;
 }
